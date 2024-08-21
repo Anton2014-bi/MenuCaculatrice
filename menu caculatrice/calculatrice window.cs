@@ -28,38 +28,38 @@ namespace menu_caculatrice
 
         private void button6_Click(object sender, EventArgs e)
         {
-            textbox.Text = textbox.Text + "4";
+            textbox.Text = textbox.Text + "4"; //print 4
 
         }
 
         private void bouttonzero_Click(object sender, EventArgs e)
         {
-            textbox.Text = textbox.Text + "0";
+            textbox.Text = textbox.Text + "0"; //print 0
         }
 
         private void bouttonpoint_Click(object sender, EventArgs e)
         {
-            textbox.Text = textbox.Text + ".";
+            textbox.Text = textbox.Text + "."; //print .
         }
 
         private void bouttonun_Click(object sender, EventArgs e)
         {
-            textbox.Text = textbox.Text + "1";
+            textbox.Text = textbox.Text + "1"; //print 1
         }
 
         private void bouttondeux_Click(object sender, EventArgs e)
         {
-            textbox.Text = textbox.Text + "2";
+            textbox.Text = textbox.Text + "2"; //print 2
         }
 
         private void bouttontroix_Click(object sender, EventArgs e)
         {
-            textbox.Text = textbox.Text + "3";
+            textbox.Text = textbox.Text + "3"; //print 3
         }
 
         private void bouttoncinq_Click(object sender, EventArgs e)
         {
-            textbox.Text = textbox.Text + "5";
+            textbox.Text = textbox.Text + "5"; //print 5
         }
 
         private void bouttonsix_Click(object sender, EventArgs e)
