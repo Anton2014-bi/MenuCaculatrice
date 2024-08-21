@@ -28,7 +28,7 @@ namespace menu_caculatrice
 
         private void button6_Click(object sender, EventArgs e)
         {
-            textbox.Text = textbox.Text + "4";
+            textbox.Text = textbox.Text + "4";//privet
 
         }
 
