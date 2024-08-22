@@ -63,7 +63,6 @@ namespace menu_caculatrice.controls
         {
             var viewDropDown = new ToolStripMenuItem("Affichage");
 
-            var alwaysontop = new ToolStripMenuItem("toujours devant");
 
             var zoomDropDown = new ToolStripMenuItem("Zoom");
 
@@ -75,23 +74,14 @@ namespace menu_caculatrice.controls
             zoomout.ShortcutKeyDisplayString = "Ctrl+Nu -";
             zoomreset.ShortcutKeyDisplayString = "Ctrl+Nu /";
 
-            alwaysontop.Click += (s, e) =>
+            zoomin.Click += (s, e) =>
             {
-                   if (alwaysontop.Checked)
-                {
-                    alwaysontop.Checked = false;
-                    
-                }
 
-                else
-                {
-                    alwaysontop.Checked = true;
-                }
             };
 
             zoomDropDown.DropDownItems.AddRange(new ToolStripItem[] { zoomin, zoomout, zoomreset});
 
-            viewDropDown.DropDownItems.AddRange(new ToolStripItem[] { alwaysontop, zoomDropDown });
+            viewDropDown.DropDownItems.AddRange(new ToolStripItem[] {  zoomDropDown });
 
             Items.Add(viewDropDown);
         }

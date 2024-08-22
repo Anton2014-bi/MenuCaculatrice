@@ -28,7 +28,7 @@ namespace menu_caculatrice
 
         private void button6_Click(object sender, EventArgs e)
         {
-            textbox.Text = textbox.Text + "4";//privet
+            textbox.Text = textbox.Text + "4";
 
         }
 
@@ -119,7 +119,7 @@ namespace menu_caculatrice
 
         private void bouttonegale_Click(object sender, EventArgs e)
         {
-            
+            label2.Text = textbox.Text;
         }
 
         private void button1_Click(object sender, EventArgs e)
